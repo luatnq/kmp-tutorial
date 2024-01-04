@@ -45,6 +45,7 @@ kotlin {
             implementation(compose.foundation)
             implementation(compose.material)
             implementation(libs.napier)
+            implementation(libs.cryptohash)
             @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
         }

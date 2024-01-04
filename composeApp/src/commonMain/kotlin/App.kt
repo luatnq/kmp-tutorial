@@ -6,7 +6,8 @@ import org.jetbrains.compose.resources.ExperimentalResourceApi
 @Composable
 fun App() {
 //    LoginViewModel()
-    MyTicketScreen(ticket = sampleTicket)
+//    MyTicketScreen(ticket = sampleTicket)
+    MintNFT()
 }
 
 val sampleTicket = Ticket(
